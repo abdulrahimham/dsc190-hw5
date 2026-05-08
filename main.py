@@ -1,6 +1,6 @@
-def main():
-    print("Hello from dsc190-hw5!")
+def greet(name):
+    greeting = f"Hello, {name}!"
+    return greeting
 
 
-if __name__ == "__main__":
-    main()
+print(greet("World"))
